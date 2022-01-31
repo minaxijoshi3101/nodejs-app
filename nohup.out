@@ -1,0 +1,45 @@
+Running from: /Users/minaxijoshi/Desktop/Minaxi/StudyMaterial/DevOps/jenkins.war
+webroot: $user.home/.jenkins
+2022-01-30 18:15:03.754+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @885ms to org.eclipse.jetty.util.log.JavaUtilLog
+2022-01-30 18:15:03.885+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2022-01-30 18:15:03.921+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2022-01-30 18:15:04.024+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.2+9
+2022-01-30 18:15:04.556+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2022-01-30 18:15:04.626+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2022-01-30 18:15:04.626+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2022-01-30 18:15:04.627+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 600000ms
+2022-01-30 18:15:05.283+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /Users/minaxijoshi/.jenkins found at: $user.home/.jenkins
+Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+2022-01-30 18:15:06.561+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@3e681bc{Jenkins v2.289.2,/,file:///Users/minaxijoshi/.jenkins/war/,AVAILABLE}{/Users/minaxijoshi/.jenkins/war}
+2022-01-30 18:15:06.651+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@4c12331b{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-01-30 18:15:06.653+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @3785ms
+2022-01-30 18:15:06.655+0000 [id=26]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2022-01-30 18:15:07.124+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2022-01-30 18:15:07.571+0000 [id=38]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Users/minaxijoshi/.jenkins/war/WEB-INF/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2022-01-30 18:15:13.498+0000 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2022-01-30 18:15:13.610+0000 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2022-01-30 18:15:15.360+0000 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2022-01-30 18:15:15.451+0000 [id=39]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2022-01-30 18:15:15.462+0000 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2022-01-30 18:15:15.533+0000 [id=38]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2022-01-30 18:15:15.535+0000 [id=41]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2022-01-30 18:15:15.628+0000 [id=64]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2022-01-30 18:15:15.675+0000 [id=64]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2022-01-30 18:15:15.739+0000 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2022-01-30 18:15:15.816+0000 [id=25]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2022-01-30 18:15:41.027+0000 [id=64]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2022-01-30 18:15:41.507+0000 [id=64]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+2022-01-30 18:15:42.571+0000 [id=64]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+2022-01-30 18:15:45.287+0000 [id=64]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tools.JDKInstaller
+2022-01-30 18:15:45.289+0000 [id=64]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2022-01-30 18:15:45.292+0000 [id=64]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 29,654 ms
+2022-01-30 18:35:39.877+0000 [id=137]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2022-01-30 18:35:39.968+0000 [id=137]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 45 ms
+2022-01-30 21:02:53.247+0000 [id=149]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2022-01-30 21:02:53.289+0000 [id=149]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 28 ms
+2022-01-30 21:06:50.402+0000 [id=27]	INFO	winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
